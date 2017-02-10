@@ -1,0 +1,15 @@
+{
+  "name": "koalamon/equivalanceclasscrawler",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Koalamon\\EquivalenceClassCrawler\\": "src/"
+    }
+  },
+  "require": {
+    "phmlabs/crawler": "dev-master",
+    "egeloen/http-adapter": "dev-master",
+    "guzzlehttp/guzzle": "~6.0"
+  }
+}
